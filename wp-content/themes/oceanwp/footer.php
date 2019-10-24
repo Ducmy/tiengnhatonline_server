@@ -68,11 +68,5 @@ if ( 'fullscreen' == oceanwp_mobile_menu_style() ) {
     get_template_part( 'partials/mobile/mobile-fullscreen' );
 } ?>
 <?php wp_footer(); ?>
-<script>
-    const url = 'https:localhost/myblog/wp-json/wp/v2/books';
-    fetch(url)
-        .then(response => response.json())
-        .then(data => console.log(data[0].content.rendered));
-</script>
 </body>
 </html>
