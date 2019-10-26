@@ -1,9 +1,9 @@
 <?php /* Template Name: call-api-direcly */
 /* Time a a litlte bit long */
 
-include('simple_html_dom.php');
+include('lib.php');
 
-$url = 'http://localhost/myblog/content-page/';
+$url = 'http://localhost/myblog/content-api/';
 $html = file_get_html($url);
 
 $myarray = array();
